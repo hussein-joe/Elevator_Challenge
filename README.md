@@ -5,7 +5,7 @@ A backend for elevator challenge, it is developed using the following technologi
 - Java 8
 - JPA / Hibernate
 - EJB
-- REST web services
+- RESTful web services
 - Wildfly 10
  
 I used Junit, Hamcrest, and Mockito for unit testing. And Arquillian for integration testing.
