@@ -1,0 +1,11 @@
+<arquillian xmlns="http://jboss.org/schema/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://jboss.org/schema/arquillian
+        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+    <container qualifier="wildfly" default="true">
+        <configuration>
+            <property name="jbossHome">D:/Tools/Servers/JBoss/wildfly-10.0.0.CR5</property>
+            <property name="modulePath">D:/Tools/Servers/JBoss/wildfly-10.0.0.CR5/modules</property>
+        </configuration>
+    </container>
+</arquillian>
