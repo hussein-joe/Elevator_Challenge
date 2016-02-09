@@ -17,5 +17,17 @@ It is not explicitly required to move subset of passengers, so I assume that all
 
 I followed TDD, and SOLID principles.
 
+## Alternative solutions
+
+There is another solution to move passengers in many steps, so search for the nearest elevator, allow some passengers to use till the max capacity. And search for another nearest elevator for the remaining passengers.
+To implement this solution I will need to do the following 
+
+- Extend class NearestElevatorSelection, override few methods. 
+- Change the factory class to return this class instead of NearestElevatorSelection.
+- Extend ElevatorSelectionResult to add a list of elevators to be used to move passengers.
+
+
+
+
 
 
