@@ -34,6 +34,7 @@ I am using Wildfly 10 to run integration tests, the following steps are required
 - Run script file "schema_init.sql" to create and initialize database.
 - Install SQL server JDBC driver (I am using version 4.1)
 - Add a datasource to the created database with JNDI name "java:/jboss/datasources/elevator_challenge"
+- Change the Wildfly directory in file "arquillian.xml"
 
 
 
