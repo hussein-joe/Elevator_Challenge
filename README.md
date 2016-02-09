@@ -17,7 +17,7 @@ It is not explicitly required to move subset of passengers, so I assume that all
 
 I followed TDD, and SOLID principles.
 
-## Alternative solutions
+### Alternative solutions
 
 There is another solution to move passengers in many steps, so search for the nearest elevator, allow some passengers to use till the max capacity. And search for another nearest elevator for the remaining passengers.
 To implement this solution I will need to do the following 
